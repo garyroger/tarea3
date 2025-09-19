@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.5)  19 SEP 2025 14:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.5)  19 SEP 2025 14:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -548,7 +548,15 @@ Package pdftexcmds Info: \pdfdraftmode found.
 \l__siunitx_unit_tmp_int=\count361
 \l__siunitx_unit_position_int=\count362
 \l__siunitx_unit_total_int=\count363
-) (C:\Users\Glade\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+) (C:\Users\Glade\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count364
+\float@exts=\toks37
+\float@box=\box79
+\@float@everytoks=\toks38
+\@floatcapt=\box80
+)
+(C:\Users\Glade\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen327
 \lightrulewidth=\dimen328
@@ -560,21 +568,17 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen334
 \cmidrulekern=\dimen335
 \defaultaddspace=\dimen336
-\@cmidla=\count364
-\@cmidlb=\count365
+\@cmidla=\count365
+\@cmidlb=\count366
 \@aboverulesep=\dimen337
 \@belowrulesep=\dimen338
-\@thisruleclass=\count366
-\@lastruleclass=\count367
+\@thisruleclass=\count367
+\@lastruleclass=\count368
 \@thisrulewidth=\dimen339
-)
-(C:\Users\Glade\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count368
-\float@exts=\toks37
-\float@box=\box79
-\@float@everytoks=\toks38
-\@floatcapt=\box80
+) (C:\Users\Glade\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks39
+\inpenc@posthook=\toks40
 ) (C:\Users\Glade\AppData\Local\Programs\MiKTeX\tex/latex/mwe\mwe.sty
 Package: mwe 2018/03/30 v0.5 Package to support minimal working examples (MWE)
  (C:\Users\Glade\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\Glade\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Users\Glade\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
@@ -605,26 +609,26 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip68
 \f@nch@widthC=\skip69
 \f@nch@widthR=\skip70
-\@temptokenb=\toks39
+\@temptokenb=\toks41
 )
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 35.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 37.
  (c:\Users\Glade\OneDrive\Documents\Visual_Proyectos\tarea3\build\tarea3.aux)
 \openout1 = `tarea3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 -- Lines per column: 56 (exact).
 (C:\Users\Glade\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
@@ -634,12 +638,12 @@ LaTeX Font Info:    ... okay on input line 35.
 \scratchbox=\box81
 \nofMPsegments=\count374
 \nofMParguments=\count375
-\everyMPshowfont=\toks40
+\everyMPshowfont=\toks42
 \MPscratchCnt=\count376
 \MPscratchDim=\dimen341
 \MPnumerator=\count377
 \makeMPintoPDFobject=\count378
-\everyMPtoPDFconversion=\toks41
+\everyMPtoPDFconversion=\toks43
 ) (C:\Users\Glade\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -652,13 +656,13 @@ Package caption Info: End \AtBeginDocument code.
  (C:\Users\Glade\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 35.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 63.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 37.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
  (C:\Users\Glade\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
  (C:\Users\Glade\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -666,6 +670,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \absfshift=\dimen343
 
 
+
+
+[1{C:/Users/Glade/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
+
+
+]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -683,8 +693,9 @@ See the caption package documentation for explanation.
 
 
 
-[1{C:/Users/Glade/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
+
+[2
 
 ] (c:\Users\Glade\OneDrive\Documents\Visual_Proyectos\tarea3\build\tarea3.aux)
  ***********
@@ -693,17 +704,17 @@ L3 programming layer <2025-08-13>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 40238 strings out of 468133
- 1045865 string characters out of 5430713
- 1735278 words of memory out of 5000000
- 68463 multiletter control sequences out of 15000+600000
+ 40276 strings out of 468133
+ 1046741 string characters out of 5430713
+ 1747174 words of memory out of 5000000
+ 68498 multiletter control sequences out of 15000+600000
  670636 words of font info for 130 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 88i,11n,91p,465b,1165s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:\Users\Glade\OneDrive\Documents\Visual_Proyectos\tarea3\build\tarea3.pdf (1 page, 157788 bytes).
+ 88i,11n,91p,774b,1165s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on c:\Users\Glade\OneDrive\Documents\Visual_Proyectos\tarea3\build\tarea3.pdf (2 pages, 182751 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
+ 93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
