@@ -132,6 +132,27 @@ Please observe the report page limits.
     \end{circuitikz}
 \end{figure}
 
+\section{Estados asumidos}
+
+	En un instante dado las tres tensiones de fase $v_a,v_b,v_c$ se ordenan por su valor instantáneo; con SCR ideales y sin solape, siempre conducen dos dispositivos: el superior de la fase con mayor potencial y el inferior de la fase con menor potencial, de modo que el voltaje de salida es siempre un línea–a–línea $v_{oi}(t)=v_{\max}(t)-v_{\min}(t)$. Se considera además el estado sin conducción $S_0$ cuando aún no se ha aplicado el pulso de compuerta (ángulo $\alpha$) o la red no supera el umbral de disparo. Así, los siete estados son: 
+	
+	\begin{itemize}
+		\item $S_0$: ningún SCR conduce, $v_{do}=0$.
+		\item $S_1$ si $a\ge b\ge c$ (conducen \(T_1\) y \(T_6\), \(v_{do}=v_a-v_c\equiv v_{ac}\)).
+		\item \(S_2\) si \(a\ge c\ge b\) (\(T_1\) y \(T_2\), \(v_{do}=v_a-v_b\equiv v_{ab}\)).
+		\item \(S_3\) si \(b\ge a\ge c\) (\(T_3\) y \(T_4\), \(v_{do}=v_b-v_c\equiv v_{bc}\)).
+		\item \(S_4\) si \(b\ge c\ge a\) (\(T_3\) y \(T_2\), \(v_{do}=v_b-v_a\equiv v_{ba}\)).
+		\item \(S_5\) si \(c\ge b\ge a\) (\(T_5\) y \(T_2\), \(v_{do}=v_c-v_a\equiv v_{ca}\)).
+		\item \(S_6\) si \(c\ge a\ge b\) (\(T_5\) y \(T_4\), \(v_{do}=v_c-v_b\equiv v_{cb}\)). 
+	\end{itemize}
+
+	Las transiciones entre estados ocurren cuando dos tensiones de fase se igualan (cruces $v_a=v_b$, $v_b=v_c$ o $v_c=v_a$), lo que en el caso senoidal balanceado sucede cada $60^\circ$ eléctricos; el inicio efectivo de cada estado conductor queda retrasado por el ángulo de disparo $\alpha$. Dado que la carga es estrictamente resistiva, no hay almacenamiento de energía ni memoria de estado: la corriente sigue instantáneamente a la tensión en cada tramo y vale simplemente
+		\begin{equation*}
+			i(t)=\frac{v_{do}(t)}{R},
+		\end{equation*}
+	anulándose exactamente en los instantes de cambio de par, por lo que el apagado de los SCR es natural en cada frontera de \(60^\circ\).
+
+% (p. ej., \(T_1\) a \(\omega t=\tfrac{\pi}{6}+\alpha\), \(T_2\) a \(\tfrac{\pi}{2}+\alpha\), etc.)
 
 \section{Conclusions}
 The conclusion goes here.
