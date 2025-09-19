@@ -1,5 +1,5 @@
 \documentclass[conference]{IEEEtran}
-
+\usepackage[spanish]{babel}
 \usepackage{graphicx}
 \usepackage{subcaption}
 \usepackage{amsmath} % assumes amsmath package installed
@@ -12,6 +12,8 @@
 \usepackage{blindtext}
 \usepackage{color}
 \usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage[spanish]{babel}
 \usepackage{float} % enables [H] float placement
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
@@ -132,6 +134,22 @@ Please observe the report page limits.
     \end{circuitikz}
 \end{figure}
 
+\begin{table}[h!]
+\centering
+\small
+\begin{tabular}{@{}cccc@{}}
+\toprule
+Sector & Intervalo & Tiristores & $v_o(t)$ \\ \midrule
+1 & $[\tfrac{\pi}{6}+\alpha,\tfrac{\pi}{2}+\alpha)$ & T1, T2 & $v_{ac}$ \\
+2 & $[\tfrac{\pi}{2}+\alpha,\tfrac{5\pi}{6}+\alpha)$ & T3, T2 & $v_{bc}$ \\
+3 & $[\tfrac{5\pi}{6}+\alpha,\tfrac{7\pi}{6}+\alpha)$ & T3, T4 & $v_{ba}$ \\
+4 & $[\tfrac{7\pi}{6}+\alpha,\tfrac{3\pi}{2}+\alpha)$ & T5, T4 & $v_{ca}$ \\
+5 & $[\tfrac{3\pi}{2}+\alpha,\tfrac{11\pi}{6}+\alpha)$ & T5, T6 & $v_{cb}$ \\
+6 & $[\tfrac{11\pi}{6}+\alpha,\tfrac{13\pi}{6}+\alpha)$ & T1, T6 & $v_{ab}$ \\ \bottomrule
+\end{tabular}
+\caption{Estados estacionarios del rectificador trifásico semicontrolado con carga $R$.}
+\label{tab:estados}
+\end{table}
 
 \section{Conclusions}
 The conclusion goes here.
