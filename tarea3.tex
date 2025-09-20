@@ -16,6 +16,8 @@
 \usepackage{booktabs} % for \toprule, \midrule, \bottomrule
 \usepackage[utf8]{inputenc}
 
+
+
 \renewcommand{\tablename}{Tabla}
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
@@ -172,18 +174,52 @@ Lo voltajes de línea a nueutro se definen como:
 	\begin{tabular}{@{}cc@{}}
 		\toprule
 		Estado & Intervalo (grados) \\ \midrule
-	    $S_{1}$ & $[30^\circ+\alpha,\;90^\circ+\alpha)$ \\
-		$S_{2}$ & $[90^\circ+\alpha,\;150^\circ+\alpha)$ \\
-		$S_{3}$ & $[150^\circ+\alpha,\;210^\circ+\alpha)$ \\
-		$S_{4}$ & $[210^\circ+\alpha,\;270^\circ+\alpha)$ \\
-		$S_{5}$ & $[270^\circ+\alpha,\;330^\circ+\alpha)$ \\
-		$S_{6}$ & $[330^\circ+\alpha,\;390^\circ+\alpha)$ \\ \bottomrule
+	    $S_{1}$ & $[30^\circ+\alpha,\;90^\circ+\alpha]$ \\
+		$S_{2}$ & $[90^\circ+\alpha,\;150^\circ+\alpha]$ \\
+		$S_{3}$ & $[150^\circ+\alpha,\;210^\circ+\alpha]$ \\
+		$S_{4}$ & $[210^\circ+\alpha,\;270^\circ+\alpha]$ \\
+		$S_{5}$ & $[270^\circ+\alpha,\;330^\circ+\alpha]$ \\
+		$S_{6}$ & $[330^\circ+\alpha,\;390^\circ+\alpha]$ \\ \bottomrule
 	\end{tabular}
 	\caption{Intervalos de los estados asumidos del rectificador trifásico semicontrolado (ángulos en grados; $\alpha$ en grados).}
 	\label{tab:estados_grados}
 \end{table}
 
 \noindent En cada intervalo de $60^\circ$ la secuencia de fases (desfasadas $120^\circ$) produce una fase \emph{más positiva} y otra \emph{más negativa}; el par de tiristores del sector conecta dicha fase máxima con la mínima, por lo que $v_{oi}$ en ese tramo es la diferencia línea-a-línea entre ellas. El ángulo de disparo $\alpha$ (expresado en grados) no altera el orden relativo de las fases: simplemente \emph{desplaza} el inicio de cada sector (p. ej. $S_{1}$ comienza en $30^\circ+\alpha$, $S_{2}$ en $90^\circ+\alpha$, etc.). En un modelo ideal por tramos cada sector dura $60^\circ$; con inductancias reales pueden aparecer solapamientos momentáneos durante los cruces.
+
+\section{Simulación en PSIM}
+
+La Fig.\ref{fig:rec_trifasico} muestra el comportamiento del voltaje en la resistencia $v_r$
+para el rectificador trifásico.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{Fig/Rectificador_trifasico.pdf}
+\caption{Comportamiento de $v_R$}
+\label{fig:rec_trifasico}
+\end{figure}
+
+Para obtener este resultado se ajusto el ángulo de disparo de cada tiristor según la Tabla \ref{tab:angulos_disparo}
+
+\begin{table}[h!]
+	\centering
+	\small
+	\begin{tabular}{@{}cc@{}}
+		\toprule
+		Estado & Intervalo (grados) \\ \midrule
+	    $T_{1}$ & $[30^\circ- 150^\circ]$ \\
+		$T_{2}$ & $[90^\circ- 210^\circ]$ \\
+		$T_{3}$ & $[150^\circ-270^\circ]$ \\
+		$T_{4}$ & $[210^\circ-330^\circ]$ \\
+		$T_{5}$ & $[270^\circ-390^\circ]$ \\
+		$T_{6}$ & $[330^\circ-450^\circ]$ \\ \bottomrule
+	\end{tabular}
+	\caption{Ángulos de disparo para cada tiristor}
+	\label{tab:angulos_disparo}
+\end{table}
+
+
+
 
 \section{Conclusions}
 The conclusion goes here.

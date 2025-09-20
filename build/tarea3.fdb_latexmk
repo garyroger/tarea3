@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1758316753.23547 "g:/Mi unidad/2. Segundo Semestre/2. Conversión de Energía Eléctrica Para Fuentes Renovables/Tareas/Tarea 3/tarea3/tarea3.tex" "build/tarea3.pdf" "tarea3" 1758316755.32408 0
-  "C:/Users/alumn/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1758316750 82507 a9eef8696c92627b87e9975edea03b2a ""
+["pdflatex"] 1758331490.56871 "g:/Mi unidad/2. Segundo Semestre/2. Conversión de Energía Eléctrica Para Fuentes Renovables/Tareas/Tarea 3/tarea3/tarea3.tex" "build/tarea3.pdf" "tarea3" 1758331492.73888 0
+  "C:/Users/alumn/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1758331166 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/alumn/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1738786947 24225045 21ef95abcdbbd61c78902ffc185618d3 ""
   "C:/Users/alumn/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Users/alumn/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmb7t.tfm" 1136793854 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -47,6 +47,7 @@
   "C:/Users/alumn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/alumn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1247596667 32587 65067f817f408bc71a7312f3d9828a9b ""
   "C:/Users/alumn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1247596666 32716 08e384dc442464e7285e891af9f45947 ""
+  "C:/Users/alumn/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb" 1247596666 32442 c975af247b6702f7ca0c299af3616b80 ""
   "C:/Users/alumn/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb" 1136874948 44729 fea0975e20ec51c992338362f05f1146 ""
   "C:/Users/alumn/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb" 1136874948 44656 0cbca70e0534538582128f6b54593cca ""
   "C:/Users/alumn/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb" 1136874948 46026 687528a208fbfc1f00832bb96cccebbb ""
@@ -189,10 +190,11 @@
   "C:/Users/alumn/AppData/Local/Programs/MiKTeX/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl" 1644048522 5588 0c1628daf15f4411ff1f463114c634a3 ""
   "C:/Users/alumn/AppData/Local/Programs/MiKTeX/tex/latex/translations/translations.sty" 1644048522 44247 2188b95d0ee74e31eca4d316263c58a7 ""
   "C:/Users/alumn/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
+  "Fig/Rectificador_trifasico.pdf" 1758331381 136469 7c5f61f1c51ecafa134a7d006087fec1 ""
   "IEEEtran.cls" 1758299982 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "build/tarea3.aux" 1758316755 857 097fda567043d90d27bf4fd6586a8ee1 "pdflatex"
-  "g:/Mi unidad/2. Segundo Semestre/2. Conversión de Energía Eléctrica Para Fuentes Renovables/Tareas/Tarea 3/tarea3/tarea3.tex" 1758316740 9611 b26e80a4b849fd9d769e9dc5dd9c2739 ""
-  "tarea3.tex" 1758316740 9611 b26e80a4b849fd9d769e9dc5dd9c2739 ""
+  "build/tarea3.aux" 1758331492 1316 451ef186148fb084390a4fc39b1890ec "pdflatex"
+  "g:/Mi unidad/2. Segundo Semestre/2. Conversión de Energía Eléctrica Para Fuentes Renovables/Tareas/Tarea 3/tarea3/tarea3.tex" 1758331489 10578 a3caeaa59c940fadb039ddcd851ace17 ""
+  "tarea3.tex" 1758331489 10578 a3caeaa59c940fadb039ddcd851ace17 ""
   (generated)
   "build/tarea3.aux"
   "build/tarea3.log"
