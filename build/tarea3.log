@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.5)  20 SEP 2025 16:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.5)  20 SEP 2025 17:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -682,15 +682,15 @@ Package epstopdf Info: Source file: <Fig/volt_lin_R.eps>
 (epstopdf)                    date: 2025-09-20 15:27:48
 (epstopdf)                    size: 153151 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Fig/volt_lin_R-eps-converted-to.pdf Fig/volt_lin_R.eps>
-(epstopdf)             \includegraphics on input line 223.
+(epstopdf)             \includegraphics on input line 224.
 Package epstopdf Info: Output file is already uptodate.
 <Fig/volt_lin_R-eps-converted-to.pdf, id=24, 275.0275pt x 130.4875pt>
 File: Fig/volt_lin_R-eps-converted-to.pdf Graphic file (type pdf)
 <use Fig/volt_lin_R-eps-converted-to.pdf>
-Package pdftex.def Info: Fig/volt_lin_R-eps-converted-to.pdf  used on input line 223.
+Package pdftex.def Info: Fig/volt_lin_R-eps-converted-to.pdf  used on input line 224.
 (pdftex.def)             Requested size: 275.02682pt x 130.48717pt.
 
-Overfull \hbox (23.02682pt too wide) in paragraph at lines 223--224
+Overfull \hbox (23.02682pt too wide) in paragraph at lines 224--225
  [][] 
  []
 
@@ -701,15 +701,15 @@ Package epstopdf Info: Source file: <Fig/volt_lin_R30.eps>
 (epstopdf)                    date: 2025-09-20 15:27:46
 (epstopdf)                    size: 111619 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Fig/volt_lin_R30-eps-converted-to.pdf Fig/volt_lin_R30.eps>
-(epstopdf)             \includegraphics on input line 230.
+(epstopdf)             \includegraphics on input line 231.
 Package epstopdf Info: Output file is already uptodate.
 <Fig/volt_lin_R30-eps-converted-to.pdf, id=25, 275.0275pt x 130.4875pt>
 File: Fig/volt_lin_R30-eps-converted-to.pdf Graphic file (type pdf)
 <use Fig/volt_lin_R30-eps-converted-to.pdf>
-Package pdftex.def Info: Fig/volt_lin_R30-eps-converted-to.pdf  used on input line 230.
+Package pdftex.def Info: Fig/volt_lin_R30-eps-converted-to.pdf  used on input line 231.
 (pdftex.def)             Requested size: 275.02682pt x 130.48717pt.
 
-Overfull \hbox (23.02682pt too wide) in paragraph at lines 230--231
+Overfull \hbox (23.02682pt too wide) in paragraph at lines 231--232
  [][] 
  []
 
@@ -721,7 +721,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <Fig/Armonicos.pdf, id=26, 244.915pt x 125.46875pt>
 File: Fig/Armonicos.pdf Graphic file (type pdf)
 <use Fig/Armonicos.pdf>
-Package pdftex.def Info: Fig/Armonicos.pdf  used on input line 272.
+Package pdftex.def Info: Fig/Armonicos.pdf  used on input line 273.
 (pdftex.def)             Requested size: 244.91438pt x 125.46843pt.
 
 ** Conference Paper **
@@ -740,13 +740,7 @@ See the caption package documentation for explanation.
 
 
 
-[2 <./Fig/volt_lin_R-eps-converted-to.pdf> <./Fig/volt_lin_R30-eps-converted-to.pdf> <./Fig/Armonicos.pdf>]
-
-
-
-[3
-
-] (c:\Users\Glade\OneDrive\Documents\Visual_Proyectos\tarea3\build\tarea3.aux)
+[2 <./Fig/volt_lin_R-eps-converted-to.pdf> <./Fig/volt_lin_R30-eps-converted-to.pdf> <./Fig/Armonicos.pdf>] (c:\Users\Glade\OneDrive\Documents\Visual_Proyectos\tarea3\build\tarea3.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
@@ -761,9 +755,9 @@ Here is how much of TeX's memory you used:
  1144 hyphenation exceptions out of 8191
  88i,11n,91p,628b,1165s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:\Users\Glade\OneDrive\Documents\Visual_Proyectos\tarea3\build\tarea3.pdf (3 pages, 491602 bytes).
+Output written on c:\Users\Glade\OneDrive\Documents\Visual_Proyectos\tarea3\build\tarea3.pdf (2 pages, 490526 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
+ 135 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
