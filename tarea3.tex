@@ -182,6 +182,7 @@ Lo voltajes de línea a nueutro se definen como:
 		$S_{6}$ & $[330^\circ+\alpha,\;390^\circ+\alpha]$ \\ \bottomrule
 	\end{tabular}
 	\caption{Intervalos de los estados asumidos.}
+	
 	\label{tab:estados_grados}
 \end{table}
 
@@ -191,17 +192,28 @@ máxima con la mínima, por lo que $v_{oi}$ en ese tramo es la diferencia línea
 El ángulo de disparo $\alpha$ no altera el orden relativo de las fases: simplemente \emph{desplaza} el inicio de cada sector (p. ej. $S_{1}$ comienza en $30^\circ+\alpha$, 
 $S_{2}$ en $90^\circ+\alpha$, etc.). En un modelo ideal por tramos cada sector dura $60^\circ$.
 
+El voltaje promedio ($V_{cd}$) en los terminales de la carga $R$ se obtiene según la siguiente ecuación, donde $V_m$ es el voltaje máximo.
+\begin{align*}	
+    V_{cd} &= \frac{3\sqrt{3}\,V_m}{\pi} \cos\alpha	
+\end{align*}
+
+Mientras el voltaje $rms$ ($V_{\text{rms}}$) se obtiene como:
+\begin{align*}	
+    V_{\text{rms}} &= \sqrt{3}V_m\sqrt{\frac{1}{2} + \frac{3\sqrt{3}}{4\pi} \cos 2\alpha}
+\end{align*}
+
+
 \section{Simulación en PSIM}
 
-La Fig.\ref{fig:rec_trifasico} muestra el comportamiento del voltaje en la resistencia $v_r$
-para el rectificador trifásico.
+%La Fig.\ref{fig:rec_trifasico} muestra el comportamiento del voltaje en la resistencia $v_r$
+%para el rectificador trifásico.
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.75\linewidth]{Fig/Rectificador_trifasico.pdf}
-\caption{Comportamiento de $v_R$}
-\label{fig:rec_trifasico}
-\end{figure}
+%\begin{figure}[H]
+%\centering
+%\includegraphics[width=0.75\linewidth]{Fig/Rectificador_trifasico.pdf}
+%\caption{Comportamiento de $v_R$}
+%\label{fig:rec_trifasico}
+%\end{figure}
 
 Para obtener este resultado se ajusto el ángulo de disparo de cada tiristor según la Tabla \ref{tab:angulos_disparo}
 
@@ -223,7 +235,19 @@ Para obtener este resultado se ajusto el ángulo de disparo de cada tiristor seg
 \end{table}
 
 
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=1]{Fig/volt_fase.eps}
+	\caption{Voltaje trifasico de entrada}
+	\label{fig:volt_tri}
+\end{figure}
 
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=1]{Fig/volt_lin_R.eps}
+	\caption{Voltaje de salida del rectificador trifásico}
+	\label{fig:v_oi}
+\end{figure}
 
 \section{Conclusions}
 The conclusion goes here.

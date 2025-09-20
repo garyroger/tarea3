@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.5)  20 SEP 2025 12:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.8.5)  20 SEP 2025 12:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -668,18 +668,48 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \absvshift=\dimen334
 \absfshift=\dimen335
-<Fig/Rectificador_trifasico.pdf, id=4, 578.16pt x 433.62pt>
-File: Fig/Rectificador_trifasico.pdf Graphic file (type pdf)
-<use Fig/Rectificador_trifasico.pdf>
-Package pdftex.def Info: Fig/Rectificador_trifasico.pdf  used on input line 201.
-(pdftex.def)             Requested size: 189.0pt x 141.74527pt.
-
-Underfull \vbox (badness 4279) has occurred while \output is active []
-
  [1{C:/Users/garyr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
 ]
+Package epstopdf Info: Source file: <Fig/volt_fase.eps>
+(epstopdf)                    date: 2025-09-20 12:54:12
+(epstopdf)                    size: 300295 bytes
+(epstopdf)             Output file: <Fig/volt_fase-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-09-20 12:57:05
+(epstopdf)                    size: 123617 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=Fig/volt_fase-eps-converted-to.pdf Fig/volt_fase.eps>
+(epstopdf)             \includegraphics on input line 240.
+Package epstopdf Info: Output file is already uptodate.
+<Fig/volt_fase-eps-converted-to.pdf, id=25, 275.0275pt x 130.4875pt>
+File: Fig/volt_fase-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig/volt_fase-eps-converted-to.pdf>
+Package pdftex.def Info: Fig/volt_fase-eps-converted-to.pdf  used on input line 240.
+(pdftex.def)             Requested size: 275.02682pt x 130.48717pt.
+
+Overfull \hbox (23.02682pt too wide) in paragraph at lines 240--241
+ [][] 
+ []
+
+Package epstopdf Info: Source file: <Fig/volt_lin_R.eps>
+(epstopdf)                    date: 2025-09-20 12:54:27
+(epstopdf)                    size: 384046 bytes
+(epstopdf)             Output file: <Fig/volt_lin_R-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-09-20 12:57:06
+(epstopdf)                    size: 153151 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=Fig/volt_lin_R-eps-converted-to.pdf Fig/volt_lin_R.eps>
+(epstopdf)             \includegraphics on input line 247.
+Package epstopdf Info: Output file is already uptodate.
+<Fig/volt_lin_R-eps-converted-to.pdf, id=26, 275.0275pt x 130.4875pt>
+File: Fig/volt_lin_R-eps-converted-to.pdf Graphic file (type pdf)
+<use Fig/volt_lin_R-eps-converted-to.pdf>
+Package pdftex.def Info: Fig/volt_lin_R-eps-converted-to.pdf  used on input line 247.
+(pdftex.def)             Requested size: 275.02682pt x 130.48717pt.
+
+Overfull \hbox (23.02682pt too wide) in paragraph at lines 247--248
+ [][] 
+ []
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -695,26 +725,24 @@ Before submitting the final camera ready copy, remember to:
 Package caption Warning: Unused \captionsetup[sub] on input line 7.
 See the caption package documentation for explanation.
 
-[2
-
- <./Fig/Rectificador_trifasico.pdf>] (g:\My Drive\Nube\Documentos\MCIE\2025B\Conversion de Energia\tarea3\build\tarea3.aux)
+[2 <./Fig/volt_fase-eps-converted-to.pdf> <./Fig/volt_lin_R-eps-converted-to.pdf>] (g:\My Drive\Nube\Documentos\MCIE\2025B\Conversion de Energia\tarea3\build\tarea3.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 40292 strings out of 474486
- 1047832 string characters out of 5743756
- 1978542 words of memory out of 5000000
- 62183 multiletter control sequences out of 15000+600000
+ 40301 strings out of 474486
+ 1048126 string characters out of 5743756
+ 1981542 words of memory out of 5000000
+ 62192 multiletter control sequences out of 15000+600000
  601880 words of font info for 126 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  94i,11n,107p,653b,1169s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "g:\My Drive\Nube\Documentos\MCIE\2025B\Conversion de Energia\tarea3\build\tarea3.pdf" (2 pages, 331226 bytes).
+<C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "g:\My Drive\Nube\Documentos\MCIE\2025B\Conversion de Energia\tarea3\build\tarea3.pdf" (2 pages, 478522 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
+ 109 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 18 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

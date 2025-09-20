@@ -39,12 +39,13 @@ f1 = figure(1); clf;
 set(f1,'Units','inches','Position',[1 1 fig_w fig_h],'PaperPositionMode','auto');
 grid on
 box on
-plot(t_psim,van_psim, 'LineWidth',1.5); hold on
-plot(t_psim,vbn_psim, 'LineWidth',1.5); hold on
-plot(t_psim,vcn_psim, 'LineWidth',1.5); hold on
+plot(t_psim*1000,van_psim, 'LineWidth',1.5); hold on
+plot(t_psim*1000,vbn_psim, "r",'LineWidth',1.5); hold on
+plot(t_psim*1000,vcn_psim, 'LineWidth',1.5); hold on
 xlabel('tiempo [ms]','FontSize',fs_ax);
 legend('$v_{an}$','$v_{bn}$','$v_{cn}$','location','best','FontSize',fs_legend);
 grid on;
+xlim([0 0.07*1000])
 box on;
 legend box off
 

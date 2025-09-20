@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1758392227.91112 "g:/My Drive/Nube/Documentos/MCIE/2025B/Conversion de Energia/tarea3/tarea3.tex" "build/tarea3.pdf" "tarea3" 1758392229.58044 0
+["pdflatex"] 1758394627.28912 "g:/My Drive/Nube/Documentos/MCIE/2025B/Conversion de Energia/tarea3/tarea3.tex" "build/tarea3.pdf" "tarea3" 1758394628.86207 0
   "C:/Users/garyr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1757362854 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/garyr/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1754416732 24225045 3a470790f2ce07baecef6f229243408a ""
   "C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -35,6 +35,7 @@
   "C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
   "C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy9.tfm" 1136765053 1116 25a7bf822c58caf309a702ef79f4afbb ""
+  "C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb" 1247596667 37912 07513ec114ac737ab54cea0152f4424b ""
   "C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1247596667 36281 c355509802a035cadc5f15869451dcee ""
@@ -190,11 +191,12 @@
   "C:/Users/garyr/AppData/Local/Programs/MiKTeX/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl" 1644048522 5588 0c1628daf15f4411ff1f463114c634a3 ""
   "C:/Users/garyr/AppData/Local/Programs/MiKTeX/tex/latex/translations/translations.sty" 1644048522 44247 2188b95d0ee74e31eca4d316263c58a7 ""
   "C:/Users/garyr/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "Fig/Rectificador_trifasico.pdf" 1758392225 136469 7c5f61f1c51ecafa134a7d006087fec1 ""
+  "Fig/volt_fase.eps" 1758394452 300295 2eea52e7f49a2858e77d7d1968929eb8 ""
+  "Fig/volt_lin_R.eps" 1758394467 384046 b8fc475d6832e59c393db79206df1338 ""
   "IEEEtran.cls" 1652460826 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "build/tarea3.aux" 1758392229 1231 4b449ffdd7a4e889f1b644983e23220d "pdflatex"
-  "g:/My Drive/Nube/Documentos/MCIE/2025B/Conversion de Energia/tarea3/tarea3.tex" 1758392225 10381 27aa6dd8f2a5ad9faa40476c43a91414 ""
-  "tarea3.tex" 1758392225 10381 27aa6dd8f2a5ad9faa40476c43a91414 ""
+  "build/tarea3.aux" 1758394628 1411 712d2bbbde70f91778a1498c680d4aea "pdflatex"
+  "g:/My Drive/Nube/Documentos/MCIE/2025B/Conversion de Energia/tarea3/tarea3.tex" 1758394623 11141 195bb48f0622e4047782ae47c8084278 ""
+  "tarea3.tex" 1758394623 11141 195bb48f0622e4047782ae47c8084278 ""
   (generated)
   "build/tarea3.aux"
   "build/tarea3.log"
