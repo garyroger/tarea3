@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1758405130.30143 "g:/Mi unidad/2. Segundo Semestre/2. Conversión de Energía Eléctrica Para Fuentes Renovables/Tareas/Tarea 3/tarea3/tarea3.tex" "build/tarea3.pdf" "tarea3" 1758405132.75707 0
+["pdflatex"] 1758405218.19242 "g:/Mi unidad/2. Segundo Semestre/2. Conversión de Energía Eléctrica Para Fuentes Renovables/Tareas/Tarea 3/tarea3/tarea3.tex" "build/tarea3.pdf" "tarea3" 1758405220.60943 0
   "C:/Users/alumn/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1758331166 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/alumn/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1738786947 24225045 21ef95abcdbbd61c78902ffc185618d3 ""
   "C:/Users/alumn/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -194,9 +194,9 @@
   "Fig/volt_lin_R.eps" 1758396001 405341 b8fc475d6832e59c393db79206df1338 ""
   "Fig/volt_lin_R30.eps" 1758398745 282263 ff208f0f22142e653c1c42336b0f89d0 ""
   "IEEEtran.cls" 1758299982 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "build/tarea3.aux" 1758405132 1768 e35cef3e3292c693caaf7490b72ffcd9 "pdflatex"
-  "g:/Mi unidad/2. Segundo Semestre/2. Conversión de Energía Eléctrica Para Fuentes Renovables/Tareas/Tarea 3/tarea3/tarea3.tex" 1758405129 13886 4f3745420b8b2861e37c99041e7f6389 ""
-  "tarea3.tex" 1758405129 13886 4f3745420b8b2861e37c99041e7f6389 ""
+  "build/tarea3.aux" 1758405220 1768 e35cef3e3292c693caaf7490b72ffcd9 "pdflatex"
+  "g:/Mi unidad/2. Segundo Semestre/2. Conversión de Energía Eléctrica Para Fuentes Renovables/Tareas/Tarea 3/tarea3/tarea3.tex" 1758405217 13886 780f258fb4a6607088e92834ca064e72 ""
+  "tarea3.tex" 1758405217 13886 780f258fb4a6607088e92834ca064e72 ""
   (generated)
   "build/tarea3.aux"
   "build/tarea3.log"
