@@ -237,15 +237,15 @@ Para obtener este resultado se ajusto el ángulo de disparo de cada tiristor seg
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[scale=1]{Fig/volt_fase.eps}
-	\caption{Voltaje trifasico de entrada}
-	\label{fig:volt_tri}
+	\includegraphics[scale=1]{Fig/volt_lin_R.eps}
+	\caption{Voltaje de salida del rectificador trifásico}
+	\label{fig:v_oi}
 \end{figure}
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[scale=1]{Fig/volt_lin_R.eps}
-	\caption{Voltaje de salida del rectificador trifásico}
+	\includegraphics[scale=1]{Fig/volt_lin_R30.eps}
+	\caption{Voltaje de salida del rectificador trifásico con $\alpha=30^\circ$}
 	\label{fig:v_oi}
 \end{figure}
 
@@ -257,7 +257,7 @@ v_o(\omega t) = a_0 + \sum_{n=1}^{\infty} \left[a_n \cos(n\omega t) + b_n \sin(n
 \]
 los coeficientes son:
 \[
-a_0 = V_{cd} = \frac{3\sqrt{3}V_m}{\pi} \cos \alpha
+a_0 = V_{cd}
 \]
 \[
 a_n = \frac{6}{\pi} \sqrt{3} V_m \int_{\frac{\pi}{6} + \alpha}^{\frac{\pi}{2} + \alpha} \sin\left(\omega t + \frac{\pi}{6}\right) \cos(n\omega t)  d(\omega t)
