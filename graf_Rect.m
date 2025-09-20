@@ -16,6 +16,14 @@ vbc_psim =  table2array(data2(:,5));
 vca_psim =  table2array(data2(:,6));
 vcb_psim =  table2array(data2(:,7));
 
+data3 = readtable('Voltajes_linea_Vr_30.txt');
+t30_psim =  table2array(data3(:,1));
+vR30_psim =  table2array(data3(:,2));
+vab30_psim =  table2array(data3(:,8));
+vac30_psim =  table2array(data3(:,7));
+vbc30_psim =  table2array(data3(:,6));
+
+
 % ===== estilo ieee para graficas =====
 % setea fuentes y estilos por defecto (solo una vez por sesion)
 set(groot,'defaulttextinterpreter','latex');
@@ -49,18 +57,32 @@ xlim([0 0.07*1000])
 box on;
 legend box off
 
-% graficas
 f2 = figure(2); clf;
 set(f2,'Units','inches','Position',[1 1 fig_w fig_h],'PaperPositionMode','auto');
 grid on
 box on
-plot(t_psim*1000,abs(vab_psim), 'LineWidth',1); hold on
-plot(t_psim*1000,abs(vac_psim),"r", 'LineWidth',1);
-plot(t_psim*1000,abs(vbc_psim), 'LineWidth',1);
-plot(t_psim*1000,vR_psim, 'LineWidth',2, 'Color',[29/255, 185/255, 84/255]);
+plot(t_psim*1000,abs(vab_psim), 'LineWidth',0.75); hold on
+plot(t_psim*1000,abs(vac_psim),"r", 'LineWidth',0.75);
+plot(t_psim*1000,abs(vbc_psim), 'LineWidth',0.75);
+plot(t_psim*1000,vR_psim, 'LineWidth',1.5, 'Color',[29/255, 185/255, 84/255]);
 xlabel('tiempo [ms]','FontSize',fs_ax);
 legend('$|v_{ab}|$','$|v_{ac}|$','$|v_{bc}|$','$v_R$','location','best','FontSize',fs_legend);
 grid on;
 xlim([0 0.07*1000])  
+box on;
+legend box off
+
+f3 = figure(3); clf;
+set(f3,'Units','inches','Position',[1 1 fig_w fig_h],'PaperPositionMode','auto');
+grid on
+box on
+plot(t30_psim*1000,abs(vab30_psim), 'LineWidth',0.75); hold on
+plot(t30_psim*1000,abs(vac30_psim),"r", 'LineWidth',0.75);
+plot(t30_psim*1000,abs(vbc30_psim), 'LineWidth',0.75);
+plot(t30_psim*1000,vR30_psim, 'LineWidth',1.5, 'Color',[29/255, 185/255, 84/255]);
+xlabel('tiempo [ms]','FontSize',fs_ax);
+legend('$|v_{ab}|$','$|v_{ac}|$','$|v_{bc}|$','$v_R$','location','best','FontSize',fs_legend);
+grid on;
+xlim([0 0.05*1000])  
 box on;
 legend box off
