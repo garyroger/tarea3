@@ -80,9 +80,9 @@ email address}
 % As a general rule, do not put math, special symbols or citations
 % in the abstract
 \begin{abstract}
-This document is a model and instructions for \LaTeX.
-This and the IEEEtran.cls file define the components of your document [title, text, heads, etc.]. *CRITICAL: Do Not Use Symbols, Special Characters, Footnotes, 
-or Math in Document title or Abstract.
+El documento presenta un análisis de un rectificador semicontrolado trifásico con carga resistiva. Mediante el método de estados asumidos, se determinan las combinaciones válidas de operación,
+los rangos de polarización de los SCR y sus ángulos de conducción. Además, se analiza el contenido armónico del voltaje de salida mediante series de Fourier, caracterizando la dependencia de su
+componente DC y distorsión armónica con el ángulo de disparo. Los hallazgos analíticos son validados mediante simulaciones en PSIM, confirmando la precisión del modelo teórico.
 \end{abstract}
 
 
@@ -90,9 +90,11 @@ or Math in Document title or Abstract.
 
 
 
-\section{Introduction}
-This document is a model and instructions for \LaTeX.
-Please observe the report page limits. 
+\section{Introducción}
+Los rectificadores semicontrolados trifásicos representan una configuración clave en aplicaciones de conversión de potencia AC/DC, al ofrecer un compromiso óptimo entre control y simplicidad.
+Este trabajo aborda su análisis desde una perspectiva de estados de conducción y calidad espectral de la salida. El método de estados asumidos proporciona un marco riguroso para predecir el
+comportamiento de conmutación, mientras que el análisis de Fourier cuantifica el rendimiento en términos de valor medio y distorsión. Mediante las simulaciones en PSIM se verifica la validez
+del modelo analítico propuesto. La Fig. \ref{fig:rect}
 
 \begin{figure}[ht]
     \centering
@@ -135,6 +137,7 @@ Please observe the report page limits.
             node[pos=0.1, right]{\scriptsize $-$};
 
     \end{circuitikz}
+	\label{fig:rect}
 \end{figure}
 
 Lo voltajes de línea a nueutro se definen como:
@@ -237,20 +240,53 @@ Para obtener este resultado se ajusto el ángulo de disparo de cada tiristor seg
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[scale=1]{Fig/volt_fase.eps}
-	\caption{Voltaje trifasico de entrada}
-	\label{fig:volt_tri}
+	\includegraphics[scale=1]{Fig/volt_lin_R.eps}
+	\caption{Voltaje de salida del rectificador trifásico}
+	\label{fig:v_oi_cero}
 \end{figure}
 
 \begin{figure}[ht]
 	\centering
-	\includegraphics[scale=1]{Fig/volt_lin_R.eps}
-	\caption{Voltaje de salida del rectificador trifásico}
-	\label{fig:v_oi}
+	\includegraphics[scale=1]{Fig/volt_lin_R30.eps}
+	\caption{Voltaje de salida del rectificador trifásico con $\alpha=30^\circ$}
+	\label{fig:v_oi_tre}
 \end{figure}
 
-\section{Conclusions}
-The conclusion goes here.
+\section{Analis de Fourier de la señal de Salida $v_{oi}$}
+El voltaje de salida \(v_o(\omega t)\) puede expresarse mediante su serie de Fourier:
+
+\[
+v_o(\omega t) = a_0 + \sum_{n=1}^{\infty} \left[a_n \cos(n\omega t) + b_n \sin(n\omega t)\right]
+\]
+los coeficientes son:
+\[
+a_0 = V_{cd}
+\]
+\[
+a_n = \frac{6}{\pi} \sqrt{3} V_m \int_{\frac{\pi}{6} + \alpha}^{\frac{\pi}{2} + \alpha} \sin\left(\omega t + \frac{\pi}{6}\right) \cos(n\omega t)  d(\omega t)
+\]
+
+\[
+b_n = \frac{6}{\pi} \sqrt{3} V_m \int_{\frac{\pi}{6} + \alpha}^{\frac{\pi}{2} + \alpha} \sin\left(\omega t + \frac{\pi}{6}\right) \sin(n\omega t)  d(\omega t)
+\]
+Los coeficientes $a_{n}$ y $b_{n}$ representan los armonicos de la señal de salida. 
+Los armónicos dominantes en el voltaje de salida son múltiplos de 6 (\(n = 6, 12, 18, \ldots\)) 
+debido a la simetria de la señal, ya que la conmutacion de los SCR ocurre cada \(60^\circ\) 
+(\(\pi/3\) radianes). La señal se repite cada \(\pi/3\) radianes, por lo que la frecuencia 
+fundamental es \(6f\).  Al aumentar \(\alpha\), los armónicos aumentan debido que los coeficientes 
+ $a_{n}$ y $b_{n}$ presentan una relacion sinosoidal proporcional a \(\alpha\), en \(0^\circ\) los armonicos 
+ son minimos, en \(90^\circ\) se presenta el mayot contenido armonico y en \(>90^\circ\) el contenido armonico
+ disminuye. 
+
+
+\section{Conclusiones}
+El método de estados asumidos es una herramienta eficaz para identificar las configuraciones válidas en el circuito, definiendo los límites de polarización directa/inversa
+y los rangos de ángulo de disparo para los SCR.
+
+El análisis de series de Fourier estableció una relación directa y cuantificable entre $\alpha$ y el espectro de salida: el valor DC decrece inversamente con $\alpha$,
+mientras que el $THD$ se modifica sustancialmente.
+
+Las simulaciones en PSIM corroboraron los modelos analíticos, verificando las formas de onda de conducción y los espectros armónicos obtenidos teóricamente.
 
 \begin{thebibliography}{plain}
 \bibitem{b1} G. Eason, B. Noble, and I. N. Sneddon, ``On certain integrals of Lipschitz-Hankel type involving products of Bessel functions,'' Phil. Trans. Roy. Soc. London, vol. A247, pp. 529--551, April 1955.

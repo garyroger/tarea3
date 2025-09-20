@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1758396008.7674 "g:/Mi unidad/2. Segundo Semestre/2. Conversión de Energía Eléctrica Para Fuentes Renovables/Tareas/Tarea 3/tarea3/tarea3.tex" "build/tarea3.pdf" "tarea3" 1758396011.23023 0
+["pdflatex"] 1758403183.89488 "g:/Mi unidad/2. Segundo Semestre/2. Conversión de Energía Eléctrica Para Fuentes Renovables/Tareas/Tarea 3/tarea3/tarea3.tex" "build/tarea3.pdf" "tarea3" 1758403186.27976 0
   "C:/Users/alumn/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1758331166 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/alumn/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1738786947 24225045 21ef95abcdbbd61c78902ffc185618d3 ""
   "C:/Users/alumn/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -191,12 +191,12 @@
   "C:/Users/alumn/AppData/Local/Programs/MiKTeX/tex/latex/translations/dicts/translations-basic-dictionary-english.trsl" 1644048522 5588 0c1628daf15f4411ff1f463114c634a3 ""
   "C:/Users/alumn/AppData/Local/Programs/MiKTeX/tex/latex/translations/translations.sty" 1644048522 44247 2188b95d0ee74e31eca4d316263c58a7 ""
   "C:/Users/alumn/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "Fig/volt_fase.eps" 1758396001 316494 2eea52e7f49a2858e77d7d1968929eb8 ""
   "Fig/volt_lin_R.eps" 1758396001 405341 b8fc475d6832e59c393db79206df1338 ""
+  "Fig/volt_lin_R30.eps" 1758398745 282263 ff208f0f22142e653c1c42336b0f89d0 ""
   "IEEEtran.cls" 1758299982 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "build/tarea3.aux" 1758396010 1411 712d2bbbde70f91778a1498c680d4aea "pdflatex"
-  "g:/Mi unidad/2. Segundo Semestre/2. Conversión de Energía Eléctrica Para Fuentes Renovables/Tareas/Tarea 3/tarea3/tarea3.tex" 1758396002 11141 195bb48f0622e4047782ae47c8084278 ""
-  "tarea3.tex" 1758396002 11141 195bb48f0622e4047782ae47c8084278 ""
+  "build/tarea3.aux" 1758403186 1671 1a94e6df4b785a0bd13d896852c5ee4a "pdflatex"
+  "g:/Mi unidad/2. Segundo Semestre/2. Conversión de Energía Eléctrica Para Fuentes Renovables/Tareas/Tarea 3/tarea3/tarea3.tex" 1758403180 14031 a986d7a7aae4f911a694a9579a9a3f6e ""
+  "tarea3.tex" 1758403180 14031 a986d7a7aae4f911a694a9579a9a3f6e ""
   (generated)
   "build/tarea3.aux"
   "build/tarea3.log"
