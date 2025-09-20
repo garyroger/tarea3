@@ -181,11 +181,15 @@ Lo voltajes de línea a nueutro se definen como:
 		$S_{5}$ & $[270^\circ+\alpha,\;330^\circ+\alpha]$ \\
 		$S_{6}$ & $[330^\circ+\alpha,\;390^\circ+\alpha]$ \\ \bottomrule
 	\end{tabular}
-	\caption{Intervalos de los estados asumidos del rectificador trifásico semicontrolado (ángulos en grados; $\alpha$ en grados).}
+	\caption{Intervalos de los estados asumidos.}
 	\label{tab:estados_grados}
 \end{table}
 
-\noindent En cada intervalo de $60^\circ$ la secuencia de fases (desfasadas $120^\circ$) produce una fase \emph{más positiva} y otra \emph{más negativa}; el par de tiristores del sector conecta dicha fase máxima con la mínima, por lo que $v_{oi}$ en ese tramo es la diferencia línea-a-línea entre ellas. El ángulo de disparo $\alpha$ (expresado en grados) no altera el orden relativo de las fases: simplemente \emph{desplaza} el inicio de cada sector (p. ej. $S_{1}$ comienza en $30^\circ+\alpha$, $S_{2}$ en $90^\circ+\alpha$, etc.). En un modelo ideal por tramos cada sector dura $60^\circ$; con inductancias reales pueden aparecer solapamientos momentáneos durante los cruces.
+En cada intervalo de $60^\circ$ la secuencia de fases (desfasadas $120^\circ$) produce una fase 
+con mayor potencial y otra con menor potencial; el par de tiristores del sector conecta dicha fase 
+máxima con la mínima, por lo que $v_{oi}$ en ese tramo es la diferencia línea-a-línea entre ellas. 
+El ángulo de disparo $\alpha$ no altera el orden relativo de las fases: simplemente \emph{desplaza} el inicio de cada sector (p. ej. $S_{1}$ comienza en $30^\circ+\alpha$, 
+$S_{2}$ en $90^\circ+\alpha$, etc.). En un modelo ideal por tramos cada sector dura $60^\circ$.
 
 \section{Simulación en PSIM}
 
