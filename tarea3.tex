@@ -82,7 +82,7 @@ email address}
 \begin{abstract}
 El documento presenta un análisis de un rectificador semicontrolado trifásico con carga resistiva. Mediante el método de estados asumidos, se determinan las combinaciones válidas de operación,
 los rangos de polarización de los SCR y sus ángulos de conducción. Además, se analiza el contenido armónico del voltaje de salida mediante series de Fourier, caracterizando la dependencia de su
-componente DC y distorsión armónica con el ángulo de disparo. Los hallazgos analíticos son validados mediante simulaciones en PSIM, confirmando la precisión del modelo teórico.
+componente DC y distorsión armónica con el ángulo de disparo. Los resultados obtenidos se comprueban mediante simulaciones en PSIM, confirmando la precisión del modelo teórico.
 \end{abstract}
 
 
@@ -94,7 +94,7 @@ componente DC y distorsión armónica con el ángulo de disparo. Los hallazgos a
 Los rectificadores semicontrolados trifásicos representan una configuración clave en aplicaciones de conversión de potencia AC/DC, al ofrecer un compromiso óptimo entre control y simplicidad.
 Este trabajo aborda su análisis desde una perspectiva de estados de conducción y calidad espectral de la salida. El método de estados asumidos proporciona un marco riguroso para predecir el
 comportamiento de conmutación, mientras que el análisis de Fourier cuantifica el rendimiento en términos de valor medio y distorsión. Mediante las simulaciones en PSIM se verifica la validez
-del modelo analítico propuesto. La Fig. \ref{fig:rect}
+del modelo analítico propuesto. La Fig. \ref{fig:rect} muestra el circuito bajo análisis.
 
 \begin{figure}[ht]
     \centering
@@ -208,35 +208,8 @@ Mientras el voltaje $rms$ ($V_{\text{rms}}$) se obtiene como:
 
 \section{Simulación en PSIM}
 
-%La Fig.\ref{fig:rec_trifasico} muestra el comportamiento del voltaje en la resistencia $v_r$
-%para el rectificador trifásico.
-
-%\begin{figure}[H]
-%\centering
-%\includegraphics[width=0.75\linewidth]{Fig/Rectificador_trifasico.pdf}
-%\caption{Comportamiento de $v_R$}
-%\label{fig:rec_trifasico}
-%\end{figure}
-
-Para obtener este resultado se ajusto el ángulo de disparo de cada tiristor según la Tabla \ref{tab:angulos_disparo}
-
-\begin{table}[h!]
-	\centering
-	\small
-	\begin{tabular}{@{}cc@{}}
-		\toprule
-		Estado & Intervalo (grados) \\ \midrule
-	    $T_{1}$ & $[30^\circ- 150^\circ]$ \\
-		$T_{2}$ & $[90^\circ- 210^\circ]$ \\
-		$T_{3}$ & $[150^\circ-270^\circ]$ \\
-		$T_{4}$ & $[210^\circ-330^\circ]$ \\
-		$T_{5}$ & $[270^\circ-390^\circ]$ \\
-		$T_{6}$ & $[330^\circ-450^\circ]$ \\ \bottomrule
-	\end{tabular}
-	\caption{Ángulos de disparo para cada tiristor}
-	\label{tab:angulos_disparo}
-\end{table}
-
+La Fig.\ref{fig:v_oi_cero} muestra el comportamiento del voltaje en la resistencia $v_R$ para $\alpha=0^\circ$
+mientras la Fig. \ref{fig:v_oi_tre} es para $\alpha=30^\circ$
 
 \begin{figure}[ht]
 	\centering
@@ -251,6 +224,23 @@ Para obtener este resultado se ajusto el ángulo de disparo de cada tiristor seg
 	\caption{Voltaje de salida del rectificador trifásico con $\alpha=30^\circ$}
 	\label{fig:v_oi_tre}
 \end{figure}
+Para obtener este resultado se ajusto el ángulo de disparo de cada tiristor según la Tabla \ref{tab:angulos_disparo}
+\begin{table}[h!]
+	\centering
+	\small
+	\begin{tabular}{@{}cc@{}}
+		\toprule
+		Estado & Intervalo (grados) \\ \midrule
+	    $T_{1}$ & $[30^\circ+\alpha - 150^\circ+\alpha]$ \\
+		$T_{2}$ & $[90^\circ+\alpha - 210^\circ+\alpha]$ \\
+		$T_{3}$ & $[150^\circ+\alpha -270^\circ+\alpha]$ \\
+		$T_{4}$ & $[210^\circ+\alpha -330^\circ+\alpha]$ \\
+		$T_{5}$ & $[270^\circ+\alpha -390^\circ+\alpha]$ \\
+		$T_{6}$ & $[330^\circ+\alpha -450^\circ+\alpha]$ \\ \bottomrule
+	\end{tabular}
+	\caption{Ángulos de disparo para cada tiristor}
+	\label{tab:angulos_disparo}
+\end{table}
 
 \section{Analis de Fourier de la señal de Salida $v_{oi}$}
 El voltaje de salida \(v_o(\omega t)\) puede expresarse mediante su serie de Fourier:
@@ -280,13 +270,13 @@ fundamental es \(6f\).  Al aumentar \(\alpha\), los armónicos aumentan debido q
 
 
 \section{Conclusiones}
-El método de estados asumidos es una herramienta eficaz para identificar las configuraciones válidas en el circuito, definiendo los límites de polarización directa/inversa
+El método de estados asumidos es una herramienta eficaz para identificar las configuraciones válidas en el circuito, definiendo los límites de polarización directa o inversa
 y los rangos de ángulo de disparo para los SCR.
 
 El análisis de series de Fourier estableció una relación directa y cuantificable entre $\alpha$ y el espectro de salida: el valor DC decrece inversamente con $\alpha$,
 mientras que el $THD$ se modifica sustancialmente.
 
-Las simulaciones en PSIM corroboraron los modelos analíticos, verificando las formas de onda de conducción y los espectros armónicos obtenidos teóricamente.
+Las simulaciones en PSIM corroboran los resultados obtenidos analíticamente.
 
 \begin{thebibliography}{plain}
 \bibitem{b1} G. Eason, B. Noble, and I. N. Sneddon, ``On certain integrals of Lipschitz-Hankel type involving products of Bessel functions,'' Phil. Trans. Roy. Soc. London, vol. A247, pp. 529--551, April 1955.
