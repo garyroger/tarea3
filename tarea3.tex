@@ -249,6 +249,33 @@ Para obtener este resultado se ajusto el ángulo de disparo de cada tiristor seg
 	\label{fig:v_oi}
 \end{figure}
 
+\section{Analis de Fourier de la señal de Salida $v_{oi}$}
+El voltaje de salida \(v_o(\omega t)\) puede expresarse mediante su serie de Fourier:
+
+\[
+v_o(\omega t) = a_0 + \sum_{n=1}^{\infty} \left[a_n \cos(n\omega t) + b_n \sin(n\omega t)\right]
+\]
+los coeficientes son:
+\[
+a_0 = V_{cd} = \frac{3\sqrt{3}V_m}{\pi} \cos \alpha
+\]
+\[
+a_n = \frac{6}{\pi} \sqrt{3} V_m \int_{\frac{\pi}{6} + \alpha}^{\frac{\pi}{2} + \alpha} \sin\left(\omega t + \frac{\pi}{6}\right) \cos(n\omega t)  d(\omega t)
+\]
+
+\[
+b_n = \frac{6}{\pi} \sqrt{3} V_m \int_{\frac{\pi}{6} + \alpha}^{\frac{\pi}{2} + \alpha} \sin\left(\omega t + \frac{\pi}{6}\right) \sin(n\omega t)  d(\omega t)
+\]
+Los coeficientes $a_{n}$ y $b_{n}$ representan los armonicos de la señal de salida. 
+Los armónicos dominantes en el voltaje de salida son múltiplos de 6 (\(n = 6, 12, 18, \ldots\)) 
+debido a la simetria de la señal, ya que la conmutacion de los SCR ocurre cada \(60^\circ\) 
+(\(\pi/3\) radianes). La señal se repite cada \(\pi/3\) radianes, por lo que la frecuencia 
+fundamental es \(6f\).  Al aumentar \(\alpha\), los armónicos aumentan debido que los coeficientes 
+ $a_{n}$ y $b_{n}$ presentan una relacion sinosoidal proporcional a \(\alpha\), en \(0^\circ\) los armonicos 
+ son minimos, en \(90^\circ\) se presenta el mayot contenido armonico y en \(>90^\circ\) el contenido armonico
+ disminuye. 
+
+
 \section{Conclusions}
 The conclusion goes here.
 
