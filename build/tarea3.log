@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.5)  20 SEP 2025 16:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.5)  20 SEP 2025 16:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -657,22 +657,14 @@ Package caption Info: End \AtBeginDocument code.
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 39.
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 67.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 110.
  (C:\Users\Glade\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 110.
  (C:\Users\Glade\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-Package caption Warning: \label without proper reference on input line 140.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `fig:rect' on page  undefined on input line 97.
-
 \absvshift=\dimen342
 \absfshift=\dimen343
 
@@ -690,15 +682,15 @@ Package epstopdf Info: Source file: <Fig/volt_lin_R.eps>
 (epstopdf)                    date: 2025-09-20 15:27:48
 (epstopdf)                    size: 153151 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Fig/volt_lin_R-eps-converted-to.pdf Fig/volt_lin_R.eps>
-(epstopdf)             \includegraphics on input line 243.
+(epstopdf)             \includegraphics on input line 223.
 Package epstopdf Info: Output file is already uptodate.
 <Fig/volt_lin_R-eps-converted-to.pdf, id=24, 275.0275pt x 130.4875pt>
 File: Fig/volt_lin_R-eps-converted-to.pdf Graphic file (type pdf)
 <use Fig/volt_lin_R-eps-converted-to.pdf>
-Package pdftex.def Info: Fig/volt_lin_R-eps-converted-to.pdf  used on input line 243.
+Package pdftex.def Info: Fig/volt_lin_R-eps-converted-to.pdf  used on input line 223.
 (pdftex.def)             Requested size: 275.02682pt x 130.48717pt.
 
-Overfull \hbox (23.02682pt too wide) in paragraph at lines 243--244
+Overfull \hbox (23.02682pt too wide) in paragraph at lines 223--224
  [][] 
  []
 
@@ -709,25 +701,28 @@ Package epstopdf Info: Source file: <Fig/volt_lin_R30.eps>
 (epstopdf)                    date: 2025-09-20 15:27:46
 (epstopdf)                    size: 111619 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Fig/volt_lin_R30-eps-converted-to.pdf Fig/volt_lin_R30.eps>
-(epstopdf)             \includegraphics on input line 250.
+(epstopdf)             \includegraphics on input line 230.
 Package epstopdf Info: Output file is already uptodate.
 <Fig/volt_lin_R30-eps-converted-to.pdf, id=25, 275.0275pt x 130.4875pt>
 File: Fig/volt_lin_R30-eps-converted-to.pdf Graphic file (type pdf)
 <use Fig/volt_lin_R30-eps-converted-to.pdf>
-Package pdftex.def Info: Fig/volt_lin_R30-eps-converted-to.pdf  used on input line 250.
+Package pdftex.def Info: Fig/volt_lin_R30-eps-converted-to.pdf  used on input line 230.
 (pdftex.def)             Requested size: 275.02682pt x 130.48717pt.
 
-Overfull \hbox (23.02682pt too wide) in paragraph at lines 250--251
+Overfull \hbox (23.02682pt too wide) in paragraph at lines 230--231
  [][] 
  []
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 1845) in paragraph at lines 289--290
-[]\OT1/ptm/m/n/10 Las sim-u-la-ciones en PSIM cor-rob-o-raron los mod-e-los
- []
 
+<Fig/Armonicos.pdf, id=26, 244.915pt x 125.46875pt>
+File: Fig/Armonicos.pdf Graphic file (type pdf)
+<use Fig/Armonicos.pdf>
+Package pdftex.def Info: Fig/Armonicos.pdf  used on input line 272.
+(pdftex.def)             Requested size: 244.91438pt x 125.46843pt.
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -745,28 +740,30 @@ See the caption package documentation for explanation.
 
 
 
-[2 <./Fig/volt_lin_R-eps-converted-to.pdf> <./Fig/volt_lin_R30-eps-converted-to.pdf>] (c:\Users\Glade\OneDrive\Documents\Visual_Proyectos\tarea3\build\tarea3.aux)
+[2 <./Fig/volt_lin_R-eps-converted-to.pdf> <./Fig/volt_lin_R30-eps-converted-to.pdf> <./Fig/Armonicos.pdf>]
+
+
+
+[3
+
+] (c:\Users\Glade\OneDrive\Documents\Visual_Proyectos\tarea3\build\tarea3.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
  ) 
 Here is how much of TeX's memory you used:
- 40299 strings out of 468133
- 1047475 string characters out of 5430713
- 1747724 words of memory out of 5000000
- 68521 multiletter control sequences out of 15000+600000
- 670117 words of font info for 129 fonts, out of 8000000 for 9000
+ 40275 strings out of 468133
+ 1047305 string characters out of 5430713
+ 1747866 words of memory out of 5000000
+ 68501 multiletter control sequences out of 15000+600000
+ 665950 words of font info for 113 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 88i,12n,91p,641b,1165s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,11n,91p,628b,1165s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on c:\Users\Glade\OneDrive\Documents\Visual_Proyectos\tarea3\build\tarea3.pdf (2 pages, 475986 bytes).
+Output written on c:\Users\Glade\OneDrive\Documents\Visual_Proyectos\tarea3\build\tarea3.pdf (3 pages, 491602 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
+ 138 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 

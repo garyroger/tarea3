@@ -17,7 +17,7 @@
 \usepackage[utf8]{inputenc}
 
 
-
+\renewcommand{\refname}{Referencias}
 \renewcommand{\tablename}{Tabla}
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
@@ -42,27 +42,33 @@
 % Titles are only capitalized in the first letter.
 % Linebreaks \\ can be used within to get better formatting as desired.
 % Do not put math or special symbols in the title.
-\title{Document title}
+\title{Ánalisis de un rectificador semicontrolado trifásico de onda completa con carga resistiva}
 
-\author{\IEEEauthorblockN{1\textsuperscript{st} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address}
+\author{
+\IEEEauthorblockN{Yosniel Agüero}
+\IEEEauthorblockA{\textit{Universidad de Guadalajara}\\
+MCIE\\
+Guadalajara, México\\
+\scriptsize{\textit{yosniel.aguero9368@alumnos.udg.mx}}}
 \and
-\IEEEauthorblockN{2\textsuperscript{nd} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address}
+\IEEEauthorblockN{Glader Hernandez}
+\IEEEauthorblockA{\textit{Universidad de Guadalajara}\\
+MCIE\\
+Guadalajara, México\\
+\scriptsize{\textit{glader.hernandez9367@alumnos.udg.mx}}}
 \and
-\IEEEauthorblockN{3\textsuperscript{rd} Given Name Surname}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address}
+\IEEEauthorblockN{Gary Sosa}
+\IEEEauthorblockA{\textit{Universidad de Guadalajara}\\
+MCIE\\
+Guadalajara, México\\
+\scriptsize{\textit{gary.sosa9369@alumnos.udg.mx}}}
+\and
+\IEEEauthorblockN{Ulrik Wong}
+\IEEEauthorblockA{\textit{Universidad de Guadalajara}\\
+MCIE\\
+Guadalajara, México\\
+\scriptsize{\textit{ulrik.wong7998@alumnos.udg.mx}}}
 }
-
 
 \maketitle
 
@@ -82,7 +88,7 @@ email address}
 \begin{abstract}
 El documento presenta un análisis de un rectificador semicontrolado trifásico con carga resistiva. Mediante el método de estados asumidos, se determinan las combinaciones válidas de operación,
 los rangos de polarización de los SCR y sus ángulos de conducción. Además, se analiza el contenido armónico del voltaje de salida mediante series de Fourier, caracterizando la dependencia de su
-componente DC y distorsión armónica con el ángulo de disparo. Los hallazgos analíticos son validados mediante simulaciones en PSIM, confirmando la precisión del modelo teórico.
+componente DC y distorsión armónica con el ángulo de disparo. Los resultados obtenidos se comprueban mediante simulaciones en PSIM, confirmando la precisión del modelo teórico.
 \end{abstract}
 
 
@@ -91,10 +97,9 @@ componente DC y distorsión armónica con el ángulo de disparo. Los hallazgos a
 
 
 \section{Introducción}
-Los rectificadores semicontrolados trifásicos representan una configuración clave en aplicaciones de conversión de potencia AC/DC, al ofrecer un compromiso óptimo entre control y simplicidad.
+Los rectificadores semicontrolados trifásicos representan una configuración clave en aplicaciones de conversión de potencia AC/DC.
 Este trabajo aborda su análisis desde una perspectiva de estados de conducción y calidad espectral de la salida. El método de estados asumidos proporciona un marco riguroso para predecir el
-comportamiento de conmutación, mientras que el análisis de Fourier cuantifica el rendimiento en términos de valor medio y distorsión. Mediante las simulaciones en PSIM se verifica la validez
-del modelo analítico propuesto. La Fig. \ref{fig:rect}
+comportamiento de conmutación, mientras que el análisis de Fourier cuantifica el rendimiento en términos de valor medio y distorsión. Mediante las simulaciones en PSIM se verifica la validez del comportamiento planateado en el análisis. La Fig. \ref{fig:rect} muestra el circuito convertidor.
 
 \begin{figure}[ht]
     \centering
@@ -136,7 +141,8 @@ del modelo analítico propuesto. La Fig. \ref{fig:rect}
             node[pos=0.9, right]{\scriptsize $+$}
             node[pos=0.1, right]{\scriptsize $-$};
 
-    \end{circuitikz}
+	\end{circuitikz}
+	\caption{Rectificador semicontrolado trifásico de onda completa con carga resistiva}
 	\label{fig:rect}
 \end{figure}
 
@@ -151,7 +157,7 @@ Lo voltajes de línea a nueutro se definen como:
 
 \section{Estados asumidos}
 
-	En un instante dado las tres tensiones de fase $v_a,v_b,v_c$ se ordenan por su valor instantáneo; con SCR ideales y sin solape, siempre conducen dos dispositivos: el superior de la fase con mayor potencial y el inferior de la fase con menor potencial, de modo que el voltaje de salida es siempre un línea–a–línea $v_{oi}(t)=v_{\max}(t)-v_{\min}(t)$. Se considera además el estado sin conducción $S_0$ cuando aún no se ha aplicado el pulso de compuerta (ángulo $\alpha$) o la red no supera el umbral de disparo. Así, los siete estados son: 
+	En un instante dado las tres tensiones de fase $v_a,v_b,v_c$ se ordenan por su valor instantáneo; con SCR ideales, siempre conducen dos dispositivos: el superior de la fase con mayor potencial y el inferior de la fase con menor potencial, de modo que el voltaje de salida es siempre un línea–a–línea $v_{oi}(t)=v_{\max}(t)-v_{\min}(t)$. Se considera además el estado sin conducción $S_0$ cuando aún no se ha aplicado el pulso de compuerta (ángulo $\alpha$) o la red no supera el umbral de disparo. Así, los siete estados son: 
 	
 	\begin{itemize}
 		\item $S_0$: ningún SCR conduce, $v_{oi}=0$.
@@ -163,7 +169,7 @@ Lo voltajes de línea a nueutro se definen como:
 		\item $S_6$ si $v_c\ge v_b\ge v_a$, $T_5$ y $T_6$ (ON), $v_{oi}=v_c-v_b\equiv v_{cb}$. 
 	\end{itemize}
 
-	Las transiciones entre estados ocurren cuando dos tensiones de fase se igualan (cruces $v_a=v_b$, $v_b=v_c$ o $v_c=v_a$), lo que en el caso senoidal balanceado sucede cada $60^\circ$ eléctricos; el inicio efectivo de cada estado conductor queda retrasado por el ángulo de disparo $\alpha$. Dado que la carga es estrictamente resistiva, no hay almacenamiento de energía ni memoria de estado: la corriente sigue instantáneamente a la tensión en cada tramo y vale simplemente
+	Las transiciones entre estados ocurren cuando dos tensiones de fase se igualan (cruces $v_a=v_b$, $v_b=v_c$ o $v_c=v_a$), lo que en el caso senoidal balanceado sucede cada $60^\circ$ eléctricos; el inicio efectivo de cada estado conductor queda retrasado por el ángulo de disparo $\alpha$. Dado que la carga es estrictamente resistiva, no hay almacenamiento de energía ni memoria de estado: la corriente sigue instantáneamente a la tensión en cada tramo, descrita por:
 		\begin{equation*}
 			i(t)=\frac{v_{oi}(t)}{R},
 		\end{equation*}
@@ -195,12 +201,13 @@ máxima con la mínima, por lo que $v_{oi}$ en ese tramo es la diferencia línea
 El ángulo de disparo $\alpha$ no altera el orden relativo de las fases: simplemente \emph{desplaza} el inicio de cada sector (p. ej. $S_{1}$ comienza en $30^\circ+\alpha$, 
 $S_{2}$ en $90^\circ+\alpha$, etc.). En un modelo ideal por tramos cada sector dura $60^\circ$.
 
-El voltaje promedio ($V_{cd}$) en los terminales de la carga $R$ se obtiene según la siguiente ecuación, donde $V_m$ es el voltaje máximo.
-\begin{align*}	
+El voltaje promedio ($V_{cd}$) en $R$ se obtiene por (\ref{eq:vcd}), donde $V_m$ es el voltaje máximo.
+\begin{align}	
     V_{cd} &= \frac{3\sqrt{3}\,V_m}{\pi} \cos\alpha	
-\end{align*}
+	\label{eq:vcd}
+\end{align}
 
-Mientras el voltaje $rms$ ($V_{\text{rms}}$) se obtiene como:
+Mientras el voltaje eficaz ($V_{\text{rms}}$) se obtiene como:
 \begin{align*}	
     V_{\text{rms}} &= \sqrt{3}V_m\sqrt{\frac{1}{2} + \frac{3\sqrt{3}}{4\pi} \cos 2\alpha}
 \end{align*}
@@ -208,35 +215,8 @@ Mientras el voltaje $rms$ ($V_{\text{rms}}$) se obtiene como:
 
 \section{Simulación en PSIM}
 
-%La Fig.\ref{fig:rec_trifasico} muestra el comportamiento del voltaje en la resistencia $v_r$
-%para el rectificador trifásico.
-
-%\begin{figure}[H]
-%\centering
-%\includegraphics[width=0.75\linewidth]{Fig/Rectificador_trifasico.pdf}
-%\caption{Comportamiento de $v_R$}
-%\label{fig:rec_trifasico}
-%\end{figure}
-
-Para obtener este resultado se ajusto el ángulo de disparo de cada tiristor según la Tabla \ref{tab:angulos_disparo}
-
-\begin{table}[h!]
-	\centering
-	\small
-	\begin{tabular}{@{}cc@{}}
-		\toprule
-		Estado & Intervalo (grados) \\ \midrule
-	    $T_{1}$ & $[30^\circ- 150^\circ]$ \\
-		$T_{2}$ & $[90^\circ- 210^\circ]$ \\
-		$T_{3}$ & $[150^\circ-270^\circ]$ \\
-		$T_{4}$ & $[210^\circ-330^\circ]$ \\
-		$T_{5}$ & $[270^\circ-390^\circ]$ \\
-		$T_{6}$ & $[330^\circ-450^\circ]$ \\ \bottomrule
-	\end{tabular}
-	\caption{Ángulos de disparo para cada tiristor}
-	\label{tab:angulos_disparo}
-\end{table}
-
+La Fig.\ref{fig:v_oi_cero} muestra el comportamiento del voltaje en la resistencia $v_R$ para $\alpha=0^\circ$,
+mientras la Fig. \ref{fig:v_oi_tre} es para $\alpha=30^\circ$
 
 \begin{figure}[ht]
 	\centering
@@ -251,8 +231,25 @@ Para obtener este resultado se ajusto el ángulo de disparo de cada tiristor seg
 	\caption{Voltaje de salida del rectificador trifásico con $\alpha=30^\circ$}
 	\label{fig:v_oi_tre}
 \end{figure}
+Para obtener este resultado se ajusto el ángulo de disparo de cada tiristor según la Tabla \ref{tab:angulos_disparo}
+\begin{table}[h!]
+	\centering
+	\small
+	\begin{tabular}{@{}cc@{}}
+		\toprule
+		Estado & Intervalo (grados) \\ \midrule
+	    $T_{1}$ & $[30^\circ+\alpha \rightarrow 150^\circ+\alpha)$ \\
+		$T_{2}$ & $[90^\circ+\alpha \rightarrow 210^\circ+\alpha)$ \\
+		$T_{3}$ & $[150^\circ+\alpha \rightarrow 270^\circ+\alpha)$ \\
+		$T_{4}$ & $[210^\circ+\alpha \rightarrow 330^\circ+\alpha)$ \\
+		$T_{5}$ & $[270^\circ+\alpha \rightarrow 390^\circ+\alpha)$ \\
+		$T_{6}$ & $[330^\circ+\alpha \rightarrow 450^\circ+\alpha)$ \\ \bottomrule
+	\end{tabular}
+	\caption{Ángulos de disparo para cada tiristor}
+	\label{tab:angulos_disparo}
+\end{table}
 
-\section{Analis de Fourier de la señal de Salida $v_{oi}$}
+\section{Ánalis de Fourier de la señal de salida}
 El voltaje de salida \(v_o(\omega t)\) puede expresarse mediante su serie de Fourier:
 
 \[
@@ -269,33 +266,26 @@ a_n = \frac{6}{\pi} \sqrt{3} V_m \int_{\frac{\pi}{6} + \alpha}^{\frac{\pi}{2} + 
 \[
 b_n = \frac{6}{\pi} \sqrt{3} V_m \int_{\frac{\pi}{6} + \alpha}^{\frac{\pi}{2} + \alpha} \sin\left(\omega t + \frac{\pi}{6}\right) \sin(n\omega t)  d(\omega t)
 \]
-Los coeficientes $a_{n}$ y $b_{n}$ representan los armonicos de la señal de salida. 
-Los armónicos dominantes en el voltaje de salida son múltiplos de 6 (\(n = 6, 12, 18, \ldots\)) 
-debido a la simetria de la señal, ya que la conmutacion de los SCR ocurre cada \(60^\circ\) 
-(\(\pi/3\) radianes). La señal se repite cada \(\pi/3\) radianes, por lo que la frecuencia 
-fundamental es \(6f\).  Al aumentar \(\alpha\), los armónicos aumentan debido que los coeficientes 
- $a_{n}$ y $b_{n}$ presentan una relacion sinosoidal proporcional a \(\alpha\), en \(0^\circ\) los armonicos 
- son minimos, en \(90^\circ\) se presenta el mayot contenido armonico y en \(>90^\circ\) el contenido armonico
- disminuye. 
 
+\begin{figure}[ht]
+	\centering
+	\includegraphics[scale=1]{Fig/Armonicos.pdf}
+	\caption{Armónicos normalizados del voltaje de salida en funcion de $\alpha$ }
+	\label{fig:arm}
+\end{figure}
+
+Los armónicos dominantes en el voltaje de salida son múltiplos de 6 (\(n = 6, 12, 18, \ldots\)) como se ve en Fig. \ref{fig:arm}. 
 
 \section{Conclusiones}
-El método de estados asumidos es una herramienta eficaz para identificar las configuraciones válidas en el circuito, definiendo los límites de polarización directa/inversa
-y los rangos de ángulo de disparo para los SCR.
-
-El análisis de series de Fourier estableció una relación directa y cuantificable entre $\alpha$ y el espectro de salida: el valor DC decrece inversamente con $\alpha$,
-mientras que el $THD$ se modifica sustancialmente.
-
-Las simulaciones en PSIM corroboraron los modelos analíticos, verificando las formas de onda de conducción y los espectros armónicos obtenidos teóricamente.
+El método de estados asumidos es una herramienta eficaz para identificar las configuraciones válidas en el circuito, definiendo los límites de polarización directa o inversa
+y los rangos de ángulo de disparo para los SCR. El análisis de series de Fourier estableció una relación directa y cuantificable entre $\alpha$ y el espectro de salida: el valor DC decrece inversamente con $\alpha$,
+mientras que el $THD$ se modifica sustancialmente. Las simulaciones en PSIM corroboran los resultados obtenidos analíticamente.
 
 \begin{thebibliography}{plain}
-\bibitem{b1} G. Eason, B. Noble, and I. N. Sneddon, ``On certain integrals of Lipschitz-Hankel type involving products of Bessel functions,'' Phil. Trans. Roy. Soc. London, vol. A247, pp. 529--551, April 1955.
-\bibitem{b2} J. Clerk Maxwell, A Treatise on Electricity and Magnetism, 3rd ed., vol. 2. Oxford: Clarendon, 1892, pp.68--73.
-\bibitem{b3} I. S. Jacobs and C. P. Bean, ``Fine particles, thin films and exchange anisotropy,'' in Magnetism, vol. III, G. T. Rado and H. Suhl, Eds. New York: Academic, 1963, pp. 271--350.
-\bibitem{b4} K. Elissa, ``Title of paper if known,'' unpublished.
-\bibitem{b5} R. Nicole, ``Title of paper with only first word capitalized,'' J. Name Stand. Abbrev., in press.
-\bibitem{b6} Y. Yorozu, M. Hirano, K. Oka, and Y. Tagawa, ``Electron spectroscopy studies on magneto-optical media and plastic substrate interf	ace,'' IEEE Transl. J. Magn. Japan, vol. 2, pp. 740--741, August 1987 [Digests 9th Annual Conf. Magnetics Japan, p. 301, 1982].
-\bibitem{b7} M. Young, The Technical Writer's Handbook. Mill Valley, CA: University Science, 1989.
+\bibitem{Mohan}
+N.~Mohan, T.~M. Undeland y W.~P. Robbins,
+\textit{Power Electronics: Converters, Applications, and Design},
+3rd ed. Hoboken, NJ, USA: John Wiley \& Sons, 2003.
 \end{thebibliography}
 
 
