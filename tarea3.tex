@@ -150,12 +150,12 @@ Lo voltajes de línea a nueutro se definen como:
 	
 	\begin{itemize}
 		\item $S_0$: ningún SCR conduce, $v_{oi}=0$.
-		\item $S_1$ si $v_a\ge v_b\ge v_c$, $T_1$ y $T_6$ (ON), $v_{oi}=v_a-v_b\equiv v_{ab}$.
-		\item $S_2$ si $v_a\ge v_c\ge v_b$, $T_1$ y $T_2$ (ON), $v_{oi}=v_a-v_c\equiv v_{ac}$.
-		\item $S_3$ si $v_b\ge v_a\ge v_c$, $T_3$ y $T_4$ (ON), $v_{oi}=v_b-v_a\equiv v_{ba}$.
-		\item $S_4$ si $v_b\ge v_c\ge v_a$, $T_3$ y $T_2$ (ON), $v_{oi}=v_b-v_c\equiv v_{bc}$.
-		\item $S_5$ si $v_c\ge v_a\ge v_b$, $T_5$ y $T_4$ (ON), $v_{oi}=v_c-v_a\equiv v_{ca}$.
-		\item $S_6$ si $v_c\ge v_b\ge v_a$, $T_5$ y $T_6$ (ON), $v_{oi}=v_c-v_b\equiv v_{cb}$. 
+		\item $S_1$: si $v_a\ge v_b\ge v_c$, $T_1$ y $T_6$ (ON), $v_{oi}=v_a-v_b\equiv v_{ab}$.
+		\item $S_2$: si $v_a\ge v_c\ge v_b$, $T_1$ y $T_2$ (ON), $v_{oi}=v_a-v_c\equiv v_{ac}$.
+		\item $S_3$: si $v_b\ge v_a\ge v_c$, $T_3$ y $T_4$ (ON), $v_{oi}=v_b-v_a\equiv v_{ba}$.
+		\item $S_4$: si $v_b\ge v_c\ge v_a$, $T_3$ y $T_2$ (ON), $v_{oi}=v_b-v_c\equiv v_{bc}$.
+		\item $S_5$: si $v_c\ge v_a\ge v_b$, $T_5$ y $T_4$ (ON), $v_{oi}=v_c-v_a\equiv v_{ca}$.
+		\item $S_6$: si $v_c\ge v_b\ge v_a$, $T_5$ y $T_6$ (ON), $v_{oi}=v_c-v_b\equiv v_{cb}$. 
 	\end{itemize}
 
 	Las transiciones entre estados ocurren cuando dos tensiones de fase se igualan (cruces $v_a=v_b$, $v_b=v_c$ o $v_c=v_a$), lo que en el caso senoidal balanceado sucede cada $60^\circ$ eléctricos; el inicio efectivo de cada estado conductor queda retrasado por el ángulo de disparo $\alpha$. Dado que la carga es estrictamente resistiva, no hay almacenamiento de energía ni memoria de estado: la corriente sigue instantáneamente a la tensión en cada tramo y vale simplemente
@@ -167,6 +167,7 @@ Lo voltajes de línea a nueutro se definen como:
 % (p. ej., \(T_1\) a \(\omega t=\tfrac{\pi}{6}+\alpha\), \(T_2\) a \(\tfrac{\pi}{2}+\alpha\), etc.)
 
 \begin{table}[h!]
+	\caption{Intervalos de los estados asumidos del rectificador trifásico semicontrolado (ángulos en grados; $\alpha$ en grados).}
 	\centering
 	\small
 	\begin{tabular}{@{}cc@{}}
@@ -179,7 +180,6 @@ Lo voltajes de línea a nueutro se definen como:
 		$S_{5}$ & $[270^\circ+\alpha,\;330^\circ+\alpha)$ \\
 		$S_{6}$ & $[330^\circ+\alpha,\;390^\circ+\alpha)$ \\ \bottomrule
 	\end{tabular}
-	\caption{Intervalos de los estados asumidos del rectificador trifásico semicontrolado (ángulos en grados; $\alpha$ en grados).}
 	\label{tab:estados_grados}
 \end{table}
 
@@ -199,4 +199,4 @@ The conclusion goes here.
 \end{thebibliography}
 
 
-\end{document}
+\end{doc
