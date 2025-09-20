@@ -91,7 +91,7 @@ componente DC y distorsión armónica con el ángulo de disparo. Los resultados 
 
 
 \section{Introducción}
-Los rectificadores semicontrolados trifásicos representan una configuración clave en aplicaciones de conversión de potencia AC/DC, al ofrecer un compromiso óptimo entre control y simplicidad.
+Los rectificadores semicontrolados trifásicos representan una configuración clave en aplicaciones de conversión de potencia AC/DC.
 Este trabajo aborda su análisis desde una perspectiva de estados de conducción y calidad espectral de la salida. El método de estados asumidos proporciona un marco riguroso para predecir el
 comportamiento de conmutación, mientras que el análisis de Fourier cuantifica el rendimiento en términos de valor medio y distorsión. Mediante las simulaciones en PSIM se verifica la validez
 del modelo analítico propuesto. La Fig. \ref{fig:rect} muestra el circuito bajo análisis.
@@ -136,7 +136,8 @@ del modelo analítico propuesto. La Fig. \ref{fig:rect} muestra el circuito bajo
             node[pos=0.9, right]{\scriptsize $+$}
             node[pos=0.1, right]{\scriptsize $-$};
 
-    \end{circuitikz}
+	\end{circuitikz}
+	\caption{Rectificador semicontrolado trifásico}
 	\label{fig:rect}
 \end{figure}
 
@@ -195,7 +196,7 @@ máxima con la mínima, por lo que $v_{oi}$ en ese tramo es la diferencia línea
 El ángulo de disparo $\alpha$ no altera el orden relativo de las fases: simplemente \emph{desplaza} el inicio de cada sector (p. ej. $S_{1}$ comienza en $30^\circ+\alpha$, 
 $S_{2}$ en $90^\circ+\alpha$, etc.). En un modelo ideal por tramos cada sector dura $60^\circ$.
 
-El voltaje promedio ($V_{cd}$) en los terminales de la carga $R$ se obtiene según la siguiente ecuación, donde $V_m$ es el voltaje máximo.
+El voltaje promedio ($V_{cd}$) en $R$ se obtiene según la siguiente ecuación, donde $V_m$ es el voltaje máximo.
 \begin{align*}	
     V_{cd} &= \frac{3\sqrt{3}\,V_m}{\pi} \cos\alpha	
 \end{align*}
