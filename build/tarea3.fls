@@ -320,8 +320,14 @@ INPUT C:\Users\garyr\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\sym
 INPUT C:\Users\garyr\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
 INPUT C:\Users\garyr\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\garyr\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\garyr\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmro7t.tfm
+INPUT .\Fig\Rectificador_trifasico.pdf
+INPUT .\Fig\Rectificador_trifasico.pdf
+INPUT .\Fig\Rectificador_trifasico.pdf
+INPUT .\Fig\Rectificador_trifasico.pdf
 OUTPUT g:\My Drive\Nube\Documentos\MCIE\2025B\Conversion de Energia\tarea3\build\tarea3.pdf
+INPUT .\Fig\Rectificador_trifasico.pdf
+INPUT .\Fig\Rectificador_trifasico.pdf
+INPUT C:\Users\garyr\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmro7t.tfm
 INPUT C:\Users\garyr\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\garyr\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\garyr\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
@@ -372,6 +378,8 @@ INPUT C:\Users\garyr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\garyr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
 INPUT C:\Users\garyr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Users\garyr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Users\garyr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy9.pfb
+INPUT C:\Users\garyr\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy9.pfb
 INPUT C:\Users\garyr\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\garyr\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\garyr\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
