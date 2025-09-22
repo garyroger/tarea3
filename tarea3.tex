@@ -180,6 +180,7 @@ Lo voltajes de línea a nueutro se definen como:
 \begin{table}[h!]
 	\centering
 	\small
+	\caption{Intervalos de los estados asumidos.}
 	\begin{tabular}{@{}cc@{}}
 		\toprule
 		Estado & Intervalo (grados) \\ \midrule
@@ -190,7 +191,6 @@ Lo voltajes de línea a nueutro se definen como:
 		$S_{5}$ & $[270^\circ+\alpha,\;330^\circ+\alpha]$ \\
 		$S_{6}$ & $[330^\circ+\alpha,\;390^\circ+\alpha]$ \\ \bottomrule
 	\end{tabular}
-	\caption{Intervalos de los estados asumidos.}
 	
 	\label{tab:estados_grados}
 \end{table}
@@ -222,7 +222,7 @@ mientras la Fig. \ref{fig:v_oi_tre} es para $\alpha=30^\circ$
 \begin{figure}[ht]
 	\centering
 	\includegraphics[scale=1]{Fig/volt_lin_R.eps}
-	\caption{Voltaje de salida del rectificador trifásico}
+	\caption{Voltaje de salida del rectificador trifásico con $\alpha=0^\circ$}
 	\label{fig:v_oi_cero}
 \end{figure}
 
@@ -236,6 +236,7 @@ Para obtener este resultado se ajusto el ángulo de disparo de cada tiristor seg
 \begin{table}[h!]
 	\centering
 	\small
+	\caption{Tiempos de conducción para cada tiristor}
 	\begin{tabular}{@{}cc@{}}
 		\toprule
 		Estado & Intervalo (grados) \\ \midrule
@@ -246,7 +247,6 @@ Para obtener este resultado se ajusto el ángulo de disparo de cada tiristor seg
 		$T_{5}$ & $[270^\circ+\alpha \rightarrow 390^\circ+\alpha)$ \\
 		$T_{6}$ & $[330^\circ+\alpha \rightarrow 450^\circ+\alpha)$ \\ \bottomrule
 	\end{tabular}
-	\caption{Ángulos de disparo para cada tiristor}
 	\label{tab:angulos_disparo}
 \end{table}
 
