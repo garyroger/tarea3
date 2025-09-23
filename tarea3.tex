@@ -163,8 +163,8 @@ Lo voltajes de línea a nueutro se definen como:
 		\item $S_0$: ningún SCR conduce, $v_{oi}=0$.
 		\item $S_1$ si $v_a\ge v_b\ge v_c$, $T_1$ y $T_6$ (ON), $v_{oi}=v_a-v_b\equiv v_{ab}$.
 		\item $S_2$ si $v_a\ge v_c\ge v_b$, $T_1$ y $T_2$ (ON), $v_{oi}=v_a-v_c\equiv v_{ac}$.
-		\item $S_3$ si $v_b\ge v_a\ge v_c$, $T_3$ y $T_4$ (ON), $v_{oi}=v_b-v_a\equiv v_{ba}$.
-		\item $S_4$ si $v_b\ge v_c\ge v_a$, $T_3$ y $T_2$ (ON), $v_{oi}=v_b-v_c\equiv v_{bc}$.
+		\item $S_3$ si $v_b\ge v_c\ge v_a$, $T_3$ y $T_2$ (ON), $v_{oi}=v_b-v_c\equiv v_{bc}$.
+		\item $S_4$ si $v_b\ge v_a\ge v_c$, $T_3$ y $T_4$ (ON), $v_{oi}=v_b-v_a\equiv v_{ba}$.
 		\item $S_5$ si $v_c\ge v_a\ge v_b$, $T_5$ y $T_4$ (ON), $v_{oi}=v_c-v_a\equiv v_{ca}$.
 		\item $S_6$ si $v_c\ge v_b\ge v_a$, $T_5$ y $T_6$ (ON), $v_{oi}=v_c-v_b\equiv v_{cb}$. 
 	\end{itemize}
@@ -232,7 +232,7 @@ mientras la Fig. \ref{fig:v_oi_tre} es para $\alpha=30^\circ$
 	\caption{Voltaje de salida del rectificador trifásico con $\alpha=30^\circ$}
 	\label{fig:v_oi_tre}
 \end{figure}
-Para obtener este resultado se ajusto el ángulo de disparo de cada tiristor según la Tabla \ref{tab:angulos_disparo}
+Para obtener este resultado se ajusto el tiempo de conducción para cada tiristor según la Tabla \ref{tab:angulos_disparo}
 \begin{table}[h!]
 	\centering
 	\small

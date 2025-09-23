@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1758572275.02828 "g:/My Drive/Nube/Documentos/MCIE/2025B/Conversion de Energia/tarea3/tarea3.tex" "build/tarea3.pdf" "tarea3" 1758572276.73026 0
+["pdflatex"] 1758635801.52175 "g:/My Drive/Nube/Documentos/MCIE/2025B/Conversion de Energia/tarea3/tarea3.tex" "build/tarea3.pdf" "tarea3" 1758635803.30556 0
   "C:/Users/garyr/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1757362854 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/garyr/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1754416732 24225045 3a470790f2ce07baecef6f229243408a ""
   "C:/Users/garyr/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -187,9 +187,9 @@
   "Fig/volt_lin_R.eps" 1758394467 384046 b8fc475d6832e59c393db79206df1338 ""
   "Fig/volt_lin_R30.eps" 1758398546 267721 ff208f0f22142e653c1c42336b0f89d0 ""
   "IEEEtran.cls" 1652460826 288304 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "build/tarea3.aux" 1758572276 1966 592872628f4030e03144430452c768d4 "pdflatex"
-  "g:/My Drive/Nube/Documentos/MCIE/2025B/Conversion de Energia/tarea3/tarea3.tex" 1758572274 12928 0885eeeb003996f441d050de21114264 ""
-  "tarea3.tex" 1758572274 12928 0885eeeb003996f441d050de21114264 ""
+  "build/tarea3.aux" 1758635803 1966 592872628f4030e03144430452c768d4 "pdflatex"
+  "g:/My Drive/Nube/Documentos/MCIE/2025B/Conversion de Energia/tarea3/tarea3.tex" 1758635801 12933 c35e98409bbb207ed6d09a06fb046206 ""
+  "tarea3.tex" 1758635801 12933 c35e98409bbb207ed6d09a06fb046206 ""
   (generated)
   "build/tarea3.aux"
   "build/tarea3.log"
