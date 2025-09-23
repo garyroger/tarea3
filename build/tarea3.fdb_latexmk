@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1758636644.2441 "c:/Users/Glade/OneDrive/Documents/Visual_Proyectos/tarea3/tarea3.tex" "build/tarea3.pdf" "tarea3" 1758636645.49001 0
+["pdflatex"] 1758637009.85461 "c:/Users/Glade/OneDrive/Documents/Visual_Proyectos/tarea3/tarea3.tex" "build/tarea3.pdf" "tarea3" 1758637011.14363 0
   "C:/Users/Glade/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1758311346 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/Glade/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1757108096 13257342 5122bec60cceffc49aa5c502ddee735b ""
   "C:/Users/Glade/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -187,9 +187,9 @@
   "Fig/volt_lin_R.eps" 1758403668 382826 b8fc475d6832e59c393db79206df1338 ""
   "Fig/volt_lin_R30.eps" 1758403666 266595 ff208f0f22142e653c1c42336b0f89d0 ""
   "IEEEtran.cls" 1758403668 281957 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
-  "build/tarea3.aux" 1758636645 1996 f58f95b64533c627edc6e423c4c4f7e1 "pdflatex"
-  "c:/Users/Glade/OneDrive/Documents/Visual_Proyectos/tarea3/tarea3.tex" 1758636643 12811 00095da69eed4a9c01cb630b0f5cf075 ""
-  "tarea3.tex" 1758636643 12811 00095da69eed4a9c01cb630b0f5cf075 ""
+  "build/tarea3.aux" 1758637010 2022 8be33d7a416fb5724ae21ea1c6fcebdb "pdflatex"
+  "c:/Users/Glade/OneDrive/Documents/Visual_Proyectos/tarea3/tarea3.tex" 1758637009 12842 30ebaab653813be8c7ff9c4995c9994a ""
+  "tarea3.tex" 1758637009 12842 30ebaab653813be8c7ff9c4995c9994a ""
   (generated)
   "build/tarea3.aux"
   "build/tarea3.log"
