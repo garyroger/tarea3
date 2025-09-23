@@ -256,18 +256,13 @@ El voltaje de salida \(v_o(\omega t)\) puede expresarse mediante su serie de Fou
 \[
 v_o(\omega t) = a_0 + \sum_{n=1}^{\infty} \left[a_n \cos(n\omega t) + b_n \sin(n\omega t)\right]
 \]
-los coeficientes son:
+podemos obtener la magnitud de los armonicos a partir de los coeficientes \(a_n\) y \(b_n\): 
 \[
-a_0 = V_{cd}
+V_{n}(\alpha)=\frac{\sqrt{a_n^2 + b_n^2}}{\sqrt{2}}
 \]
 \[
-a_n = \frac{6}{\pi} \sqrt{3} V_m \int_{\frac{\pi}{6} + \alpha}^{\frac{\pi}{2} + \alpha} \sin\left(\omega t + \frac{\pi}{6}\right) \cos(n\omega t)  d(\omega t)
+V_{n}(\alpha) = \frac{3\sqrt{3}V_m}{\sqrt{2}\pi} \sqrt{ \frac{1}{(n-1)^2} + \frac{1}{(n+1)^2} - \frac{2\cos(2\alpha)}{n^2-1} }
 \]
-
-\[
-b_n = \frac{6}{\pi} \sqrt{3} V_m \int_{\frac{\pi}{6} + \alpha}^{\frac{\pi}{2} + \alpha} \sin\left(\omega t + \frac{\pi}{6}\right) \sin(n\omega t)  d(\omega t)
-\]
-
 \begin{figure}[ht]
 	\centering
 	\includegraphics[scale=1]{Fig/Armonicos.pdf}
